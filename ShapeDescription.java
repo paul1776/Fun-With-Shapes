@@ -66,7 +66,4 @@ public class ShapeDescription {
 	public Vector<Double> getDoubles() {
 		return doubles;
 	}
-
-
-	
 }

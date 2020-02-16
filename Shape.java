@@ -1,4 +1,3 @@
-
 public abstract class Shape {
 
 	/**
@@ -13,7 +12,6 @@ public abstract class Shape {
 	 * @return the area
 	 */
 	public abstract double getArea();
-	
 	
 	/**
 	 * Returns the perimeter of a shape

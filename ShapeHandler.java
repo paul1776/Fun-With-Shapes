@@ -11,7 +11,6 @@ public abstract class ShapeHandler {
 	protected Vector<ShapeDescription> shapeDescriptions;
 	protected Vector<Shape> shapes;
 	
-	
 	/**
 	 * Populates the shapeDefinitions vector with
 	 * some definitions of shapes.  You'll need to implement 
@@ -48,16 +47,12 @@ public abstract class ShapeHandler {
 	 */
 	public abstract void convertDescriptionsToShapes();
 
-	
-	
 	/**
 	 * Computes the sum of the shapes' areas, where the shapes
 	 * are from the shapes list
 	 * @return the sum of the shapes' areas
 	 */
 	public abstract double sumOverAreas();
-	
-
 	
 	/**
 	 * Computes the sum of the shapes' perimeters, where the shapes
