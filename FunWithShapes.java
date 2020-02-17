@@ -50,6 +50,7 @@ public class FunWithShapes extends ShapeHandler {
         try {
             FunWithShapes fun = new FunWithShapes();
             System.out.println(fun.sumOverAreas());
+            System.out.println(fun.sumOverPerimeters());
 
         } catch (ShapeException e) {
             System.out.println("Shape Exception: ");
