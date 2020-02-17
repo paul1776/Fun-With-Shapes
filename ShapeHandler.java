@@ -20,6 +20,7 @@ public abstract class ShapeHandler {
 	 * @param filename the file containing the definitions of the shapes
 	 */
 	ShapeHandler() throws ShapeException {
+
 		String filename = "shapes.txt";
 		shapes = new Vector<Shape>();
 		shapeDescriptions = new Vector<ShapeDescription>();
@@ -29,7 +30,7 @@ public abstract class ShapeHandler {
 			BufferedReader reader = new BufferedReader(new FileReader(new File(filename)));
 			while ((line = reader.readLine()) != null) {
 				ShapeDescription description = new ShapeDescription(line);
-				shapeDescriptions.add(description);				
+				shapeDescriptions.add(description);
 			}			
 			reader.close();
 		} catch (FileNotFoundException e) {
