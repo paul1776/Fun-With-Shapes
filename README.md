@@ -1,4 +1,4 @@
-# Programming Assignment 2: Fun With Shapes
+# Fun With Shapes
 ## COSC 150 - Advanced Programming
 
 - [Goals](#goals)
@@ -146,41 +146,3 @@ $ java FunWithShapes
 The `shapes.txt` specification of a `Triangle` provides the lengths of the three sides, but no direct information about angles; in particular, you should not assume this is a right triangle!
 
 You may find it helpful to consider [Heron's Formula](https://en.wikipedia.org/wiki/Heron%27s_formula) (link to Wikipedia), which provides a method of calculating triangle area using the three side lengths and the semiperimiter (the perimeter divided by two).
-
-## Provided files
-
-The following files are provided code for the project and already present in your repository:
-- `ShapeHandler.java`
-- `Shape.java`
-- `ShapeDescription.java`
-- `ShapeException.java`
-
-You should not modify these files while implementing your code; doing so may cause the autograding tests to fail.
-
-Additionally, the following files related to project logistics are present in your repository:
-- `README.md` which provides this specification.
-- `.gitignore` which specifies files git should NOT track.
-  - Note that `shapes.txt` is specifically listed so it will NOT be added to tracking.
-- `.travis.yml` which provides instructions to trigger Travis testing.
-- `travis` a directory containing the testing scripts.
-
-You should not modify *any* of these files while working on your project; doing so may break Travis such that a test build does not run, or gives false/misleading feedback about your code.
-
-## Grading rubric
-
-Your score for this assignment is determined according to the following rubric.
-
-Amazing Feat | Points Awarded | Tested by TravisCI?
----          | :---:          | ---:
-**Travis-graded tests**
-Your repository contains at least one commit.                   | 10 | Yes
-Your commit contains all the required files with correct names. | 10 | Yes
-Your source code compiles.                                      | 20 | Yes
-Your `Circle` class instantiates; correcly computes area, and correctly computes perimeter. | 15 | Yes
-Your `Square` class instantiates; correcly computes area, and correctly computes perimeter. | 15 | Yes
-Your `Rectangle` class instantiates; correcly computes area, and correctly computes perimeter. | 15 | Yes
-Your `Triangle` class instantiates; correcly computes area, and correctly computes perimeter. | 15 | Yes                            |    |
-The total area and perimeter reported are correct (30x random files) | 30 | Yes
-**Ray-graded tests**                                            |    |
-Your class diagram is legible, neatly formatted, and uses proper UML styling for classes and relationships. | 20 | *No*
-**Total points**                                                | 150 |
